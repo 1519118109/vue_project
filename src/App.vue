@@ -1,15 +1,20 @@
 <template>
     <div id="app">
-        <index></index>
+        <Index></Index>
+        <hr>
+        <Home></Home>
     </div>
 </template>
 
 <script>
- import index  from "./components/index";
-export default {
+
+import Index from "./components/Index";
+import Home from "./components/Home";
+ export default {
   name: 'App',
   components: {
-    'index':index,
+    'Index':Index,
+      'Home':Home,
   }
 }
 </script>
